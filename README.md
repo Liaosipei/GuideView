@@ -6,6 +6,6 @@
 
 #使用说明
 在需要呈现启动页面的地方，比如程序的根ViewController.m中的viewDidAppear函数中加入以下代码即可进入启动页面：
-1. GuideViewController *guide=[[GuideViewController alloc]init];
-2. guide.delegate=self;
-3. [self presentViewController:guide animated:YES completion:nil];
+GuideViewController *guide=[[GuideViewController alloc]init];
+guide.delegate=self;
+[self presentViewController:guide animated:YES completion:nil];
