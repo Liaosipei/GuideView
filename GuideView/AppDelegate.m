@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  GuideView
 //
-//  Created by liaosipei on 15/8/19.
+//  Created by liaosipei on 15/8/17.
 //  Copyright (c) 2015年 liaosipei. All rights reserved.
 //
 
@@ -43,3 +43,4 @@
 }
 
 @end
+
