@@ -4,7 +4,7 @@
 3. 每个页面上附有一个呈现图片的ImageView和呈现文字的Label，使用者可在主页面中修改图片和文字的各类属性。
 4. 图片和文字在滑动过程中呈现渐变的动画效果，过渡自然。
 
-##使用说明
+#使用说明
 在需要呈现启动页面的地方，比如程序的根ViewController.m中的viewDidAppear函数中加入以下代码即可进入启动页面：
 1. GuideViewController *guide=[[GuideViewController alloc]init];
 2. guide.delegate=self;
